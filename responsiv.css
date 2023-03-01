@@ -1,0 +1,242 @@
+@media only screen and (max-width: 600px) {
+    #head-popup{
+        margin-top: -15% !important;
+    }  
+    .popup-img{
+        display: none;
+    }
+    .input-fields input {
+        border: none;
+        width: 90%;
+        /* border: 1px solid red; */
+        border-radius: 20px;
+        height: 100%;
+        padding: 0 10px;
+      }
+      .input-fields input:focus {
+        outline: none;
+      }
+      .input-fields input::placeholder{
+        font-size: 14px;
+      }
+      .input-fields button {
+        background-image: linear-gradient(to top, #1c75bc, #27aae1);
+        border: none;
+        color: white;
+        padding: 5px;
+        width: 100%;
+        height: 4vh;
+      }
+      
+      .input-fields {
+        background-color: #ffff;
+        margin-bottom: 10px;
+        border: 1px solid #1c75bc;
+        border-radius: 60px;
+        width: 85%;
+        height: 4vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 4px;
+      }
+    .btn-close-dark{
+        color: #000000 !important;
+        background: none;
+        border: none;
+        font-size: 49px;
+        position: absolute;
+       left: 93%;
+       bottom: 87%;
+      }
+    .popup{
+    background-image:url(img/plant-2.png);
+   
+    background-position: left bottom;
+    background-size: 220px 350px;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    width: 90% !important;
+    height: 60% !important;
+    padding: 1px 1px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: "Poppins",sans-serif;
+    display: none;
+    text-align: center;
+    
+}
+#for-phone-popup{
+    margin-left: 4%;
+}
+#close{
+    display: block;
+    margin:  0 ;
+    background-color: transparent;
+    font-size: 30px;
+    color: #3d3d3d;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.popup p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+}
+
+#popup-input{
+    width: 100%;
+}
+
+#exampleCheck1 {
+    margin: 4px 0 0 0%    !important; 
+    
+    
+}
+#popup-input{
+    height: 100%;
+    width: 90%;
+     border: 1px solid #1c75bc ;
+     border-radius: 25px;
+     box-shadow:1px 1px  7px 1px hsla(0, 0%, 53%, 0.769) !important;
+     
+ 
+ }
+  ::placeholder {
+     color: #000000 !important;
+     opacity: 0.7; 
+     font-size: 10px;
+ }
+
+ #popup-input:focus{
+     box-shadow: none;
+ }
+ .btn:focus{
+     box-shadow: none !important;
+ }
+
+
+
+
+
+
+
+ #top-2 a{
+    font-size: 5px !important;
+    
+   }
+   #top-2 img{
+       width: 30%;
+   }
+   #top-2{
+       padding-bottom: 10% !important;
+      
+   }
+#deal-coupn-img{
+    margin-top: 1%;
+    padding-left: 0% !important;
+    width: 98% !important;
+}
+
+   
+}
+ /* #####################deal all in one line############################# */
+@media(max-width: 416px) {
+    
+
+    .card-img {
+        height: 16vh;
+    }
+
+    .card-img img {
+        height: 16vh;
+        width: 100%;
+        object-fit: fill;
+    }
+
+    .deal-body {
+        padding: 0% 2px 0% 2px !important;
+    }
+
+    .outer-card h4,
+    h6,
+    p {
+        font-size: 9px;
+        margin: 2px;
+    }
+
+    .card-content {
+        padding: 2px;
+    }
+
+    /* .slick-list .draggable {
+        height: 31vh;
+
+
+    }
+
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    } */
+
+    /* .slick-track {
+
+        height: auto;
+        margin-top: 1rem;
+        padding: 12px 0;
+
+    }
+
+    .nav-tabs .nav-link.active {
+        width: 25%;
+    } */
+
+    /* .nav-tabs .nav-link.active img {
+        width: 100%;
+    } */
+
+    
+
+    /* .all-deal-button {
+        /* display: inline; */
+        /* background-color: #3d3d3d4f; */
+      
+        /* border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom: none;
+      } */
+      /* #flipkart-logo-size {
+        height: 20px !important;
+        width: 120px !important;
+        border: 1px solid red; 
+       
+      } */
+      /* #flipkart-logo-size img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+      .client-row{
+        box-shadow: 0px 5px 12px -9px hsl(0deg 0% 53% / 50%);
+        /* overflow-x: scroll; 
+
+    }  */
+    .deal-body{
+        margin-top: 4%;
+    }
+    #hr-tags{
+        font-size: 14px;
+    }
+      
+
+
+}
